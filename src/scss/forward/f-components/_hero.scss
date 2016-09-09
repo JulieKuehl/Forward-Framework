@@ -4,9 +4,16 @@ Hero Image STYLES
 
 .hero-section {
 
-	@include hero-img(auto);
+	@include hero-img(400px);
 
 	.hero-text {
 		@include hero-text();
 	}
+}
+
+.photo-credit {
+	font-size: 1rem;
+	color: $hex-secondary;
+	position: absolute;
+	bottom: 10%;
 }

@@ -1793,7 +1793,7 @@ Hero Image STYLES
   width: 100%;
   position: relative;
   overflow: hidden;
-  height: auto; }
+  height: 400px; }
   .hero-section .hero-text {
     height: 100%;
     font-size: 2em;
@@ -1807,7 +1807,14 @@ Hero Image STYLES
     padding: 0 2.0225em;
     width: 100%; }
     .hero-section .hero-text p {
+      padding: 2.0225em 0;
       text-align: center; }
+
+.photo-credit {
+  font-size: 1rem;
+  color: #B2432C;
+  position: absolute;
+  bottom: 10%; }
 
 .search-form {
   display: block;
