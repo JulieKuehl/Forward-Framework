@@ -70,10 +70,6 @@ ol{list-style:decimal}
 li>ol,li>ul{margin-bottom:0}
 .no-bullets{padding-left:0;list-style:none}
 .no-bullets li{padding-left:0;margin-left:0}
-.alignleft{display:inline;float:left}
-.alignright{display:inline;float:right}
-.aligncenter,.alignnone{display:block}
-.aligncenter{margin-right:auto;margin-left:auto}
 img{height:auto;-ms-interpolation-mode:bicubic}
 .site-header,.widget{border-bottom:1px solid #dbdbdb}
 .comment-content img[height],.entry-content img,.entry-summary img,img[class*=align],img[class*=wp-image-],img[class*=attachment-]{height:auto;vertical-align:bottom}
@@ -286,7 +282,6 @@ body{margin-top:60px}
 .comment-list{margin-bottom:1rem;padding-bottom:0rem}
 }
 @media screen and (max-width:480px){.comment-respond .submit,input[type=submit]{width:100%}
-.alignleft,.alignright{display:block;float:none}
 .wp-caption.alignleft,.wp-caption.alignright,blockquote.alignleft,blockquote.alignright,img.alignleft,img.alignright{margin:1.333em auto 1em}
 .wp-caption.aligncenter,.wp-caption.alignleft,.wp-caption.alignnone,.wp-caption.alignright{margin-bottom:.42219em}
 .comment-body,.comment-respond{margin-bottom:1rem;padding-bottom:1rem}
