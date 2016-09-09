@@ -11,21 +11,21 @@ Text Domain: forward
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
+/*
+ * This theme uses the Inverted Triangle CSS method of organization with Sass
+ * http://www.creativebloq.com/web-design/manage-large-css-projects-itcss-101517528
+ *
+ */
+/*
+ * Default configuration
+ *
+ */
 html {
   box-sizing: border-box; }
 
 *, *::after, *::before {
   box-sizing: inherit; }
 
-/**************************** begin inverted triangle ***************************/
-/*
- * This theme uses the Inverted Triangle CSS method of organization with Sass
- * http://www.creativebloq.com/web-design/manage-large-css-projects-itcss-101517528
- * and
- * follows the 10up Engineering Best Practices
- * https://10up.github.io/Engineering-Best-Practices/
- *
- */
 /*
  * Section A
  * SETTINGS
@@ -742,6 +742,59 @@ textarea {
   border-radius: 0;
   -webkit-appearance: none; }
 
+/*
+ * Heading styles
+ *
+ */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  color: #3185CB;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    text-decoration: none; }
+    h1 a :hover, h2 a :hover, h3 a :hover, h4 a :hover, h5 a :hover, h6 a :hover {
+      color: #B2432C; }
+
+h1 {
+  font-size: 32px;
+  text-transform: uppercase; }
+
+h2 {
+  font-size: 28px; }
+
+h3 {
+  font-size: 24px;
+  font-style: italic; }
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase; }
+
+h5 {
+  font-style: italic; }
+
+/*
+ * Styles for links
+ *
+ * underlining follows WordPress accessibility guidelines
+ * https://developer.wordpress.org/themes/functionality/accessibility/#link-underlining
+ */
+a {
+  background-color: transparent;
+  text-decoration: underline;
+  color: inherit; }
+  a:active, a:hover {
+    color: #8e3623;
+    outline: 0;
+    text-decoration: none; }
+
+/*
+ * OBJECTS
+ * This is the first layer in which we find class-based selectors.
+ * These are concerned with styling non-cosmetic design patterns, or 'objects'.
+ * Objects can range from something as simple as a .wrapper element, to layout systems, to media objects.
+ *
+ */
 .container, .header-container, .content-container, .footer-container {
   max-width: 68em;
   margin-left: auto;
@@ -802,59 +855,6 @@ textarea {
 .page .content-area {
   margin-bottom: 0; }
 
-/*
- * Heading styles
- *
- */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 700;
-  color: #3185CB;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
-  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-    text-decoration: none; }
-    h1 a :hover, h2 a :hover, h3 a :hover, h4 a :hover, h5 a :hover, h6 a :hover {
-      color: #B2432C; }
-
-h1 {
-  font-size: 32px;
-  text-transform: uppercase; }
-
-h2 {
-  font-size: 28px; }
-
-h3 {
-  font-size: 24px;
-  font-style: italic; }
-
-h4 {
-  font-size: 20px;
-  text-transform: uppercase; }
-
-h5 {
-  font-style: italic; }
-
-/*
- * Styles for links
- *
- * underlining follows WordPress accessibility guidelines
- * https://developer.wordpress.org/themes/functionality/accessibility/#link-underlining
- */
-a {
-  background-color: transparent;
-  text-decoration: underline;
-  color: inherit; }
-  a:active, a:hover {
-    color: #8e3623;
-    outline: 0;
-    text-decoration: none; }
-
-/*
- * OBJECTS
- * This is the first layer in which we find class-based selectors.
- * These are concerned with styling non-cosmetic design patterns, or 'objects'.
- * Objects can range from something as simple as a .wrapper element, to layout systems, to media objects.
- *
- */
 /*
  * Section F
  * COMPONENTS
@@ -1833,6 +1833,10 @@ input[type=submit] {
  * The !important tags should go here.
  *
  */
-/**************************** end inverted triangle *****************************/
+/*
+ * VISUAL GRID
+ * optional visual grid overlay for use in development (from Bourbon Neat)
+ *
+ */
 
 /*# sourceMappingURL=style.css.map */

@@ -14,8 +14,8 @@ pre,textarea{overflow:auto}
 code,pre{background-color:#fdfdfd}
 hr,img{border:0}
 embed,iframe,img,object,pre,video{max-width:100%}
-.header-container,sub,sup{position:relative}
 h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,ins,mark{text-decoration:none}
+.header-container,sub,sup{position:relative}
 .comment-list li.comment,.main-navigation .menu li,.no-bullets li,.social-sharing li,.widget ul li{list-style-type:none;list-style-image:none}
 html{box-sizing:border-box;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 *,::after,::before{box-sizing:inherit}
@@ -85,13 +85,6 @@ figure.wp-caption,img.size-full,img.size-large,img.wp-post-image{max-width:100%;
 .wp-caption.aligncenter,.wp-caption.alignleft,.wp-caption.alignnone,.wp-caption.alignright{margin-bottom:.42219em}
 .attachment-post-thumbnail{display:block;margin-bottom:2.36859em}
 input[type=color],input[type=date],input[type=datetime],input[type=datetime-local],input[type=email],input[type=month],input[type=number],input[type=password],input[type=search],input[type=tel],input[type=text],input[type=time],input[type=url],input[type=week],textarea{border-radius:0;-webkit-appearance:none}
-.container,.content-container,.footer-container,.header-container{max-width:68em;margin-left:auto;margin-right:auto;padding-right:2.0225em;padding-left:2.0225em}
-.container::after,.content-container::after,.footer-container::after,.header-container::after{clear:both;content:"";display:table}
-.content-area{float:left;display:block;margin-right:2.35765%;width:65.88078%;margin-top:60px;margin-top:3.75rem;margin-bottom:60px;margin-bottom:3.75rem}
-.content-area:last-child{margin-right:0}
-.page-template-page-full-width .content-area{float:left;display:block;margin-right:2.35765%;width:100%;padding-right:0}
-.page-template-page-full-width .content-area:last-child{margin-right:0}
-.page .content-area,.single .content-area{margin-bottom:0}
 h1,h2,h3,h4,h5,h6{clear:both;font-weight:700;color:#3185CB;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
 h1 a :hover,h2 a :hover,h3 a :hover,h4 a :hover,h5 a :hover,h6 a :hover{color:#B2432C}
 h1{font-size:32px}
@@ -101,6 +94,13 @@ h4{font-size:20px}
 a{background-color:transparent;text-decoration:underline;color:inherit}
 #mobile-menu-switch .toggle:hover,.comment-body h1 a:hover,.entry-title a:hover,.error404 .page-title a:hover,.site-title a:hover,a:active,a:hover,article.page h1 a:hover,article.post h1 a:hover{text-decoration:none}
 a:active,a:hover{color:#8e3623;outline:0}
+.container,.content-container,.footer-container,.header-container{max-width:68em;margin-left:auto;margin-right:auto;padding-right:2.0225em;padding-left:2.0225em}
+.container::after,.content-container::after,.footer-container::after,.header-container::after{clear:both;content:"";display:table}
+.content-area{float:left;display:block;margin-right:2.35765%;width:65.88078%;margin-top:60px;margin-top:3.75rem;margin-bottom:60px;margin-bottom:3.75rem}
+.content-area:last-child{margin-right:0}
+.page-template-page-full-width .content-area{float:left;display:block;margin-right:2.35765%;width:100%;padding-right:0}
+.page-template-page-full-width .content-area:last-child{margin-right:0}
+.page .content-area,.single .content-area{margin-bottom:0}
 .site-header{height:120px;padding-top:30px;padding-top:1.875rem;padding-bottom:30px;padding-bottom:1.875rem}
 .site-branding{position:absolute;top:0;left:2.0225em}
 .site-title{font-size:3.15733em;line-height:1em;margin-top:.56278em;margin-bottom:.56278em;font-weight:300}
