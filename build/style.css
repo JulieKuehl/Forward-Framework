@@ -248,7 +248,7 @@ input[type=submit]:hover{color:#f9f9f9;background-color:#94d60a}
 @media screen and (min-width:769px){.content-area{padding-right:4.7153%}
 .main-navigation{display:block!important;height:auto!important}
 .main-navigation .menu .page_item_has_children,.main-navigation .menu>.menu-item-has-children{min-height:40px}
-.main-navigation .children,.main-navigation .sub-menu{position:absolute;top:38px;left:-11px;margin-left:0;padding-left:0;display:none;min-width:150px;padding:.625rem;border:1px solid #dbdbdb;background-color:#f9f9f9}
+.main-navigation .children,.main-navigation .sub-menu{position:absolute;top:38px;left:-11px;margin-left:0;padding-left:0;display:none;min-width:150px;padding:.625rem;border:1px solid #dbdbdb;background-color:#f9f9f9;z-index:10}
 .main-navigation .children .menu-item,.main-navigation .children .page_item,.main-navigation .sub-menu .menu-item,.main-navigation .sub-menu .page_item{margin-bottom:.625rem}
 .main-navigation .children .children,.main-navigation .children .sub-menu,.main-navigation .sub-menu .children,.main-navigation .sub-menu .sub-menu{position:static;top:30px;padding-bottom:0;padding-left:0;border:none}
 .main-navigation .children .children .menu-item,.main-navigation .children .children .page_item,.main-navigation .children .sub-menu .menu-item,.main-navigation .children .sub-menu .page_item,.main-navigation .sub-menu .children .menu-item,.main-navigation .sub-menu .children .page_item,.main-navigation .sub-menu .sub-menu .menu-item,.main-navigation .sub-menu .sub-menu .page_item{padding-left:.625rem}

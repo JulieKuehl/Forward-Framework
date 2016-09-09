@@ -122,6 +122,8 @@
 
 			border: $border-thin;
 			background-color: $hex-white;
+
+			z-index: 10;
 		}
 		@include media($tablet) {
 			float: none;
