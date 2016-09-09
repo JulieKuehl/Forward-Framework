@@ -40,6 +40,9 @@ html {
  * Any mixin or function that does not need accessing globally should belong in the partial to which it relates.
  *
  */
+/*********************
+AVAILABLE MIXINS
+*********************/
 /*
  * Section C
  * GENERIC
@@ -818,8 +821,8 @@ a {
   display: block;
   margin-right: 2.35765%;
   width: 65.88078%;
-  margin-top: 3.75rem;
-  margin-bottom: 3.75rem; }
+  margin-top: 4rem;
+  margin-bottom: 4rem; }
   .content-area:last-child {
     margin-right: 0; }
   @media screen and (max-width: 768px) {
@@ -839,8 +842,8 @@ a {
 
   @media screen and (max-width: 768px) {
     .content-area {
-      margin-top: 1.875rem;
-      margin-bottom: 1.875rem; } }
+      margin-top: 2rem;
+      margin-bottom: 2rem; } }
 
 .page-template-page-full-width .content-area {
   float: left;
@@ -866,8 +869,8 @@ a {
  */
 .site-header {
   height: 120px;
-  padding-top: 1.875rem;
-  padding-bottom: 1.875rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   border-bottom: 1px solid #dbdbdb; }
   @media screen and (max-width: 768px) {
     .site-header {
@@ -985,7 +988,7 @@ a {
           float: none;
           margin-bottom: 0;
           margin-left: 0;
-          padding-top: 0.46875rem;
+          padding-top: 0.5rem;
           padding-bottom: 0.3125rem; } }
       .main-navigation .menu .page_item:first-child,
       .main-navigation .menu .menu-item:first-child {
@@ -1089,7 +1092,7 @@ a {
   @media screen and (max-width: 768px) {
     .main-navigation .children .page_item {
       margin-bottom: 0;
-      padding-top: 0.46875rem;
+      padding-top: 0.5rem;
       padding-bottom: 0.3125rem;
       border-bottom: 0; } }
 
@@ -1120,28 +1123,28 @@ a {
       background-color: #f9f9f9; }
 
 .post-navigation {
-  margin-top: 3.75rem;
-  margin-bottom: 3.75rem; }
+  margin-top: 4rem;
+  margin-bottom: 4rem; }
   @media screen and (max-width: 768px) {
     .post-navigation {
-      margin-top: 1.875rem;
-      margin-bottom: 1.875rem; } }
+      margin-top: 2rem;
+      margin-bottom: 2rem; } }
 
 .comment-navigation {
-  margin-top: -1.875rem;
-  margin-bottom: 3.75rem; }
+  margin-top: -2rem;
+  margin-bottom: 4rem; }
   @media screen and (max-width: 768px) {
     .comment-navigation {
       margin-top: 0;
-      margin-bottom: 1.875rem; } }
+      margin-bottom: 2rem; } }
 
 .sidebar {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 31.76157%;
-  margin-top: 3.75rem;
-  margin-bottom: 3.75rem; }
+  margin-top: 4rem;
+  margin-bottom: 4rem; }
   .sidebar:last-child {
     margin-right: 0; }
   @media screen and (max-width: 768px) {
@@ -1154,8 +1157,8 @@ a {
         margin-right: 0; } }
   @media screen and (max-width: 768px) {
     .sidebar {
-      margin-top: 1.875rem;
-      margin-bottom: 1.875rem; } }
+      margin-top: 2rem;
+      margin-bottom: 2rem; } }
 
 .screen-reader-text {
   display: none; }
@@ -1214,13 +1217,13 @@ a {
   text-align: right; }
 
 .site-footer {
-  padding-top: 3.75rem;
-  padding-bottom: 3.75rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   border-top: 1px solid #dbdbdb; }
   @media screen and (max-width: 768px) {
     .site-footer {
-      padding-top: 1.875rem;
-      padding-bottom: 1.875rem; } }
+      padding-top: 2rem;
+      padding-bottom: 2rem; } }
   .site-footer .site-info {
     font-size: 0.875rem;
     line-height: 1.333em; }
@@ -1228,15 +1231,15 @@ a {
 article.post,
 article.page,
 .comment-body {
-  margin-bottom: 3.75rem;
-  padding-bottom: 3.75rem;
+  margin-bottom: 4rem;
+  padding-bottom: 4rem;
   border-bottom: 1px solid #dbdbdb; }
   @media screen and (max-width: 768px) {
     article.post,
     article.page,
     .comment-body {
-      margin-bottom: 1.875rem;
-      padding-bottom: 1.875rem; } }
+      margin-bottom: 2rem;
+      padding-bottom: 2rem; } }
   article.post h1,
   article.page h1,
   .comment-body h1 {
@@ -1495,7 +1498,7 @@ article.page,
   padding-left: 0;
   padding-left: 0;
   list-style: none;
-  margin-bottom: 1.875rem; }
+  margin-bottom: 2rem; }
   .social-sharing::after {
     clear: both;
     content: "";
@@ -1527,8 +1530,8 @@ article.sticky {
 
 .comment-body {
   display: block;
-  margin-bottom: 1.875rem;
-  padding-bottom: 1.875rem;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
   padding-left: 65px; }
   .comment-body::after {
     clear: both;
@@ -1536,8 +1539,8 @@ article.sticky {
     display: table; }
   @media screen and (max-width: 480px) {
     .comment-body {
-      margin-bottom: 0.9375rem;
-      padding-bottom: 0.9375rem;
+      margin-bottom: 1rem;
+      padding-bottom: 1rem;
       padding-left: 0; } }
   .comment-body .comment-meta {
     margin-bottom: 0.31672em; }
@@ -1582,12 +1585,12 @@ article.sticky {
 .comment-list {
   margin-left: 0;
   padding-left: 0;
-  margin-bottom: 1.875rem;
-  padding-bottom: 0.9375rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
   list-style: none; }
   @media screen and (max-width: 768px) {
     .comment-list {
-      margin-bottom: 0.9375rem;
+      margin-bottom: 1rem;
       padding-bottom: 0rem; } }
   .comment-list li.comment {
     margin-left: 0;
@@ -1627,15 +1630,15 @@ article.sticky {
 .comment-notes {
   font-size: 0.875rem;
   line-height: 1.333em;
-  margin-bottom: 1.875rem; }
+  margin-bottom: 2rem; }
 
 .comment-respond {
-  margin-bottom: 1.875rem;
-  padding-bottom: 1.875rem; }
+  margin-bottom: 2rem;
+  padding-bottom: 2rem; }
   @media screen and (max-width: 480px) {
     .comment-respond {
-      margin-bottom: 0.9375rem;
-      padding-bottom: 0.9375rem; } }
+      margin-bottom: 1rem;
+      padding-bottom: 1rem; } }
   .comment-respond .submit {
     margin-bottom: 0; }
     @media screen and (max-width: 480px) {
@@ -1643,14 +1646,14 @@ article.sticky {
         width: 100%; } }
 
 .pingback .comment-body {
-  margin-bottom: 0.9375rem;
-  padding-bottom: 0.9375rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
   padding-left: 0; }
 .pingback + .comment .comment-body {
-  margin-top: 1.875rem; }
+  margin-top: 2rem; }
   @media screen and (max-width: 480px) {
     .pingback + .comment .comment-body {
-      margin-top: 0.9375rem; } }
+      margin-top: 1rem; } }
 
 .content-area label {
   font-weight: 400;
@@ -1778,13 +1781,13 @@ input[type=submit] {
 
 .search-form {
   display: block;
-  margin-bottom: 1.875rem; }
+  margin-bottom: 2rem; }
   .search-form::after {
     clear: both;
     content: "";
     display: table; }
   .content-area .search-form {
-    margin-top: 1.875rem; }
+    margin-top: 2rem; }
   .content-area .search-form label {
     margin-top: 0;
     margin-bottom: 0; }
@@ -1812,7 +1815,7 @@ input[type=submit] {
       width: 100%; }
 
 .search-results article:last-child {
-  margin-bottom: 1.875rem;
+  margin-bottom: 2rem;
   padding-bottom: 0;
   border: none; }
 

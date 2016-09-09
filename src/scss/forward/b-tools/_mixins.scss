@@ -12,6 +12,43 @@
 // Sass mixins:     http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#mixins
 // Bourbon mixins:  http://bourbon.io/docs/
 
+/*********************
+AVAILABLE MIXINS
+*********************/
+// @mixin font-weight($weight: default)
+// @mixin type-style-h1
+// @mixin type-style-h2
+// @mixin type-style-h3
+// @mixin type-style-h4
+// @mixin type-style-h5
+// @mixin type-style-h6
+// @mixin type-style-small
+// @mixin type-style-default
+// @mixin no-wrap
+// @mixin ellipsis
+// @mixin link-hover
+// @mixin link-hover-none
+// @mixin double-gutter
+// @mixin link-colors($normal, $hover: false, $active: false, $visited: false, $focus: false)
+// @mixin links($style: default)
+// @mixin no-bullet
+// @mixin no-bullets
+// @mixin bg-image($filename, $x: left, $y: top, $ext: png )
+// @mixin bg-image-hidpi($filename, $width, $height, $x: left, $y: top, $ext: png )
+// @mixin all-text-inputs
+// @mixin zero-all
+// @mixin zero-top
+// @mixin zero-bottom
+// @mixin zero-left
+// @mixin zero-right
+// @mixin zero-last
+// @mixin hide
+// @mixin code
+// @mixin tablet-single
+// @mixin mobile-single
+
+
+
 // Import variables for use in Mixins.
 //
 @import "../a-settings/colors";
@@ -20,7 +57,7 @@
 
 // Standard unit of measurement to keep things simple
 //
-$global-unit: 15;
+$global-unit: 16;
 @function unit($value) {
 	@return rem($global-unit * $value);
 }

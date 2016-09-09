@@ -4,13 +4,13 @@
 
 // Project Variables
 //
-var project     = 'forward',
+var project     = 'forward-framework',
     build       = 'build/',
     dist        = 'dist/'+project+'/',
     source      = 'src/'
     lang        = 'languages/',
     bower       = 'bower_components/',
-    url         = 'forward.local'
+    url         = 'forward-framework.dev'
 ;
 
 // Gulp Settings & Startup
