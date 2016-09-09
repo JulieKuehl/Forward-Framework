@@ -46,6 +46,8 @@ AVAILABLE MIXINS
 // @mixin code
 // @mixin tablet-single
 // @mixin mobile-single
+// @mixin hero-img($height)
+// @mixin hero-text
 
 
 
@@ -373,5 +375,37 @@ $modular-scale-base: 1em;
 @mixin mobile-single {
 	@include media($mobile) {
 		@include span-columns(4 of 4);
+	}
+}
+
+/*********************
+HERO IMAGE AND TEXT
+*********************/
+@mixin hero-img($height) {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: auto;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	height: $height;
+}
+
+@mixin hero-text() {
+	height: 100%;
+	font-size: 2em;
+	font-weight: 700;
+	color: $hex-white;
+	line-height: 1.1em;
+	display: block;
+	position: relative;
+	max-width: $max-width;
+	margin: 0 auto;
+	padding: 0 $padding;
+	width: 100%;
+
+	p {
+		text-align: center;
 	}
 }

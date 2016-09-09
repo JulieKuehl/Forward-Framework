@@ -1,0 +1,12 @@
+/*********************
+Hero Image STYLES
+*********************/
+
+.hero-section {
+
+	@include hero-img($hero-small);
+
+	.hero-text {
+		@include hero-text();
+	}
+}
