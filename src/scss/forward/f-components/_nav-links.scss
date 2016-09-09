@@ -1,0 +1,27 @@
+////////////////
+// Navigation //
+////////////////
+
+// Post Navigation
+//
+.post-navigation {
+	@include media($tablet) {
+		margin-top: unit(2);
+		margin-bottom: unit(2);
+	}
+
+	margin-top: unit(4);
+	margin-bottom: unit(4);
+}
+
+// Comment Navigation
+//
+.comment-navigation {
+	@include media($tablet) {
+		margin-top: 0;
+		margin-bottom: unit(2);
+	}
+
+	margin-top: unit(-2);
+	margin-bottom: unit(4);
+}

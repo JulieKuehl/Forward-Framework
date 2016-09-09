@@ -1,0 +1,32 @@
+// Alignments
+//
+.alignleft {
+	@include media($mobile) {
+		display: block;
+		float: none;
+	}
+
+	display: inline;
+	float: left;
+}
+
+.alignright {
+	@include media($mobile) {
+		display: block;
+		float: none;
+	}
+
+	display: inline;
+	float: right;
+}
+
+.aligncenter {
+	display: block;
+
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.alignnone {
+	display: block;
+}

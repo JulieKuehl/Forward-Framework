@@ -1,0 +1,11 @@
+///////////////
+// Utilities //
+///////////////
+
+// Remove iOS styling
+//
+@include all-text-inputs {
+	border-radius: 0;
+
+	-webkit-appearance: none;
+}

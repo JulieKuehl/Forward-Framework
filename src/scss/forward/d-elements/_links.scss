@@ -1,0 +1,19 @@
+/*
+ * Styles for links
+ *
+ * underlining follows WordPress accessibility guidelines
+ * https://developer.wordpress.org/themes/functionality/accessibility/#link-underlining
+ */
+
+a {
+	background-color: transparent;
+	text-decoration: underline;
+	color: inherit; // color alone isn't accessibility friendly
+
+	&:active,
+	&:hover {
+		color: $hex-secondary-hover;
+		outline: 0;
+		text-decoration: none;
+	}
+}
