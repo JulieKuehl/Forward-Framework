@@ -11,6 +11,134 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
+/**************************** begin inverted triangle ***************************/
+/*
+ * This theme uses the Inverted Triangle CSS method of organization with Sass
+ * http://www.creativebloq.com/web-design/manage-large-css-projects-itcss-101517528
+ * and
+ * follows the 10up Engineering Best Practices
+ * https://10up.github.io/Engineering-Best-Practices/
+ *
+ */
+
+/*
+ * VISUAL GRID
+ * optional visual grid overlay for use in development (from Bourbon Neat)
+ */
+//$visual-grid: true !global;
+
+/*
+ * Section A
+ * SETTINGS
+ * This layer should only house settings that need to be accessed from anywhere, including Sass variables.
+ * Examples of global settings might be things like the base font size, color palettes, and so on.
+ *
+ */
+//@import "a-settings/colors";
+//@import "a-settings/fonts";
+//@import "a-settings/structure";
+
+/*
+ * Section B
+ * TOOLS
+ * This layer should include global mixins and functions.
+ * Any mixin or function that does not need accessing globally should belong in the partial to which it relates.
+ *
+ */
+//@import "b-tools/mixins";
+
+/*
+ * Section C
+ * GENERIC
+ * The Generic layer is the first one that actually produces any CSS.
+ * It houses very high-level, far reaching styles.
+ * This layer is seldom modified, and is usually the same across any projects you work on.
+ * It contains things like Normalize.css, global box-sizing rules, CSS resets and so on.
+ *
+ * Reset.css un-styles every element.
+ * Normalize.css styles browsers to render elements more consistently with each other.
+ * Sanitize.css styles browsers to render elements more consistently with developer expectations and preferences.
+ *
+ * NOTE: You probably only need one of the following...
+ *
+ */
+//@import "c-generic/reset";
+//@import "c-generic/normalize";
+//@import "c-generic/sanitize";
+
+/*
+ * Section D
+ * ELEMENTS
+ * These are bare, unclassed HTML elements.
+ * It is very rarely added to or changed after initial setup.
+ * Once we have defined element-level styles, all additions and deviations should be implemented using classes.
+ *
+ */
+//@import "d-elements/elements";
+//@import "d-elements/headings";
+//@import "d-elements/links";
+//@import "d-elements/align";
+
+/*
+ * OBJECTS
+ * This is the first layer in which we find class-based selectors.
+ * These are concerned with styling non-cosmetic design patterns, or 'objects'.
+ * Objects can range from something as simple as a .wrapper element, to layout systems, to media objects.
+ *
+ */
+//@import "e-objects/bourbon/bourbon";
+//@import "e-objects/neat/grid-settings";
+//@import "e-objects/neat/neat";
+//@import "e-objects/wrappers";
+//@import "e-objects/media";
+
+/*
+ * Section F
+ * COMPONENTS
+ * The Components layer is where we begin to style recognizable pieces of UI.
+ * We shouldn't find any selectors with a lower specificity than one class in this layer.
+ * This is where the majority of your work will happen after initial project set-up.
+ * Adding new components and features usually makes up the vast majority of development.
+ *
+ */
+//@import "f-components/branding";
+//@import "f-components/nav-site";
+//@import "f-components/nav-links";
+//@import "f-components/widgets";
+//@import "f-components/buttons";
+//@import "f-components/forms";
+//@import "f-components/404";
+//@import "f-components/hero";
+//@import "f-components/slider";
+//@import "f-components/carousel";
+//@import "f-components/comments";
+//@import "f-components/gallery";
+//@import "f-components/cards";
+//@import "f-components/search-icon";
+//@import "f-components/tabs";
+
+/*
+ * Section G
+ * VENDORS
+ * This layer addresses styling specific to vendor plugins, such as Gravity Forms or The Events Calendar.
+ * It has the power to override anything at all that has gone before it.
+ *
+ */
+//@import "g-vendors/gravity-forms";
+//@import "g-vendors/the-events-calendar";
+
+/*
+ * Section H
+ * TRUMPS
+ * This layer beats – or 'trumps' – all other layers.
+ * It has the power to override anything at all that has gone before it.
+ * It is inelegant and heavy-handed, and contains utility and helper classes, hacks and overrides.
+ * The !important tags should go here.
+ *
+ */
+//@import "h-trumps/shame";
+/**************************** end inverted triangle *****************************/
+
 // $visual-grid: true !global;
 
 // Default configuration
@@ -1534,129 +1662,3 @@ input[type=submit] {
         @include type-style-h1;
     }
 }
-
-/*
- * This theme uses the Inverted Triangle CSS method of organization with Sass
- * http://www.creativebloq.com/web-design/manage-large-css-projects-itcss-101517528
- * and
- * follows the 10up Engineering Best Practices
- * https://10up.github.io/Engineering-Best-Practices/
- *
- */
-
-/*
- * VISUAL GRID
- * optional visual grid overlay for use in development (from Bourbon Neat)
- */
-$visual-grid: true !global;
-
-/*
- * Section A
- * SETTINGS
- * This layer should only house settings that need to be accessed from anywhere, including Sass variables.
- * Examples of global settings might be things like the base font size, color palettes, and so on.
- *
- */
-@import "a-settings/colors";
-@import "a-settings/fonts";
-@import "a-settings/structure";
-
-/*
- * Section B
- * TOOLS
- * This layer should include global mixins and functions.
- * Any mixin or function that does not need accessing globally should belong in the partial to which it relates.
- *
- */
-@import "b-tools/mixins";
-
-/*
- * Section C
- * GENERIC
- * The Generic layer is the first one that actually produces any CSS.
- * It houses very high-level, far reaching styles.
- * This layer is seldom modified, and is usually the same across any projects you work on.
- * It contains things like Normalize.css, global box-sizing rules, CSS resets and so on.
- *
- * Reset.css un-styles every element.
- * Normalize.css styles browsers to render elements more consistently with each other.
- * Sanitize.css styles browsers to render elements more consistently with developer expectations and preferences.
- *
- * NOTE: You probably only need one of the following...
- *
- */
-@import "c-generic/reset";
-//@import "c-generic/normalize";
-//@import "c-generic/sanitize";
-
-/*
- * Section D
- * ELEMENTS
- * These are bare, unclassed HTML elements.
- * It is very rarely added to or changed after initial setup.
- * Once we have defined element-level styles, all additions and deviations should be implemented using classes.
- *
- */
-@import "d-elements/elements";
-@import "d-elements/headings";
-@import "d-elements/links";
-@import "d-elements/align";
-
-/*
- * OBJECTS
- * This is the first layer in which we find class-based selectors.
- * These are concerned with styling non-cosmetic design patterns, or 'objects'.
- * Objects can range from something as simple as a .wrapper element, to layout systems, to media objects.
- *
- */
-//@import "e-objects/bourbon/bourbon";
-//@import "e-objects/neat/grid-settings";
-//@import "e-objects/neat/neat";
-@import "e-objects/wrappers";
-@import "e-objects/media";
-
-/*
- * Section F
- * COMPONENTS
- * The Components layer is where we begin to style recognizable pieces of UI.
- * We shouldn't find any selectors with a lower specificity than one class in this layer.
- * This is where the majority of your work will happen after initial project set-up.
- * Adding new components and features usually makes up the vast majority of development.
- *
- */
-@import "f-components/branding";
-@import "f-components/nav-site";
-@import "f-components/nav-links";
-@import "f-components/widgets";
-@import "f-components/buttons";
-@import "f-components/forms";
-@import "f-components/404";
-//@import "f-components/hero";
-//@import "f-components/slider";
-//@import "f-components/carousel";
-//@import "f-components/comments";
-//@import "f-components/gallery";
-//@import "f-components/cards";
-//@import "f-components/search-icon";
-//@import "f-components/tabs";
-
-/*
- * Section G
- * VENDORS
- * This layer addresses styling specific to vendor plugins, such as Gravity Forms or The Events Calendar.
- * It has the power to override anything at all that has gone before it.
- *
- */
-//@import "g-vendors/gravity-forms";
-//@import "g-vendors/the-events-calendar";
-
-/*
- * Section H
- * TRUMPS
- * This layer beats – or 'trumps' – all other layers.
- * It has the power to override anything at all that has gone before it.
- * It is inelegant and heavy-handed, and contains utility and helper classes, hacks and overrides.
- * The !important tags should go here.
- *
- */
-@import "h-trumps/shame";
