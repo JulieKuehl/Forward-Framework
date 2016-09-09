@@ -88,9 +88,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
  * Objects can range from something as simple as a .wrapper element, to layout systems, to media objects.
  *
  */
-//@import "e-objects/bourbon/bourbon";
-//@import "e-objects/neat/grid-settings";
-//@import "e-objects/neat/neat";
+//@import "e-objects/bourbon/bourbon";			// loaded in default configuration
+//@import "e-objects/neat/grid-settings";		// loaded in default configuration
+//@import "e-objects/neat/neat";				// loaded in default configuration
 @import "e-objects/wrappers";
 @import "e-objects/media";
 
