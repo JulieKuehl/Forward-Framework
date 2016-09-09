@@ -17,8 +17,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 @import '../../../bower_components/neat/app/assets/stylesheets/neat';
 @import '../base/base';
 @import 'grid-settings';
-@import 'variables';
-@import 'mixins';
 
 /**************************** begin inverted triangle ***************************/
 /*
@@ -54,7 +52,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
  * Any mixin or function that does not need accessing globally should belong in the partial to which it relates.
  *
  */
-//@import "b-tools/mixins";
+@import "b-tools/mixins";
 
 /*
  * Section C
