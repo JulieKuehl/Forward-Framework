@@ -230,6 +230,9 @@ input[type=submit]:hover{color:#f9f9f9;background-color:#94d60a}
 .error404 .content-area:last-child{margin-right:0}
 .error404 .page-title{font-weight:300;font-size:3.15733em;line-height:1em;margin-top:.56278em;margin-bottom:.56278em}
 .error404 .page-title:first-child{margin-top:0}
+.hero-section{background-repeat:no-repeat;background-size:cover;background-position:center center;width:100%;position:relative;overflow:hidden;height:auto}
+.hero-section .hero-text{height:100%;font-size:2em;font-weight:700;color:#f9f9f9;line-height:1.1em;display:block;position:relative;max-width:68em;margin:0 auto;padding:0 2.0225em;width:100%}
+.hero-section .hero-text p{text-align:center}
 .search-form{display:block;margin-bottom:32px;margin-bottom:2rem}
 .search-form::after{display:table}
 .content-area .search-form{margin-top:32px;margin-top:2rem}
