@@ -1135,37 +1135,30 @@ a {
       margin-top: 0;
       margin-bottom: 1.875rem; } }
 
-.widget-area {
+.sidebar {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 31.76157%;
   margin-top: 3.75rem;
   margin-bottom: 3.75rem; }
-  .widget-area:last-child {
+  .sidebar:last-child {
     margin-right: 0; }
   @media screen and (max-width: 768px) {
-    .widget-area {
+    .sidebar {
       float: left;
       display: block;
       margin-right: 3.57866%;
       width: 100%; }
-      .widget-area:last-child {
+      .sidebar:last-child {
         margin-right: 0; } }
   @media screen and (max-width: 768px) {
-    .widget-area {
+    .sidebar {
       margin-top: 1.875rem;
       margin-bottom: 1.875rem; } }
 
 .screen-reader-text {
   display: none; }
-
-.widget-title {
-  font-weight: 400;
-  font-size: 1em;
-  line-height: 1em;
-  margin-top: 1em;
-  margin-bottom: 1em; }
 
 .widget {
   margin-bottom: 1em;
@@ -1177,6 +1170,12 @@ a {
   .widget:last-child {
     padding-bottom: 0;
     border-bottom: none; }
+  .widget .widget-title {
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em; }
   .widget ul {
     padding-left: 0;
     list-style: none;
