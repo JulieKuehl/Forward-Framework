@@ -13,9 +13,14 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 // $visual-grid: true !global;
 
-// Import default configuration.
+// Default configuration
 //
-@import 'config';
+@import 'bourbon/app/assets/stylesheets/bourbon';
+@import 'neat/app/assets/stylesheets/neat';
+@import '../base/base';
+@import 'grid-settings';
+@import 'variables';
+@import 'mixins';
 
 body,
 button,
