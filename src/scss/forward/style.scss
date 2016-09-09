@@ -15,8 +15,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 //
 @import '../../../bower_components/bourbon/app/assets/stylesheets/bourbon';
 @import '../../../bower_components/neat/app/assets/stylesheets/neat';
-@import '../base/base';
-@import 'grid-settings';
+//@import '../base/base';
+//@import 'a-settings/grid-settings';
 
 /**************************** begin inverted triangle ***************************/
 /*
@@ -72,6 +72,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 //@import "c-generic/reset";
 //@import "c-generic/normalize";
 //@import "c-generic/sanitize";
+@import '../base/base';
 
 /*
  * Section D
