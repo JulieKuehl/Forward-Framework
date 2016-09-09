@@ -489,11 +489,11 @@ h6 {
 
 a {
   text-decoration: none;
-  color: #3185CB; }
+  color: #94d60a; }
   a:hover {
     text-decoration: underline; }
   a:hover {
-    color: #276aa2; }
+    color: #76ab08; }
 
 p {
   margin-bottom: 1em; }
@@ -748,8 +748,8 @@ textarea {
  */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
-  color: #3185CB;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  color: #94d60a;
+  font-family: "Montserrat", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif; }
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     text-decoration: none; }
     h1 a :hover, h2 a :hover, h3 a :hover, h4 a :hover, h5 a :hover, h6 a :hover {
@@ -784,7 +784,7 @@ a {
   text-decoration: underline;
   color: inherit; }
   a:active, a:hover {
-    color: #8e3623;
+    color: #76ab08;
     outline: 0;
     text-decoration: none; }
 
@@ -1112,7 +1112,7 @@ a {
     height: 60px;
     text-align: center;
     text-transform: uppercase;
-    color: #3185CB; }
+    color: #94d60a; }
     #mobile-menu-switch .toggle:hover {
       text-decoration: none; }
     #mobile-menu-switch .toggle.on {
@@ -1736,15 +1736,15 @@ input[type=search] {
 input[type=submit] {
   font-weight: 400;
   padding: 6px 1.77689em;
-  color: #3185CB;
-  border: 1px solid #3185CB;
+  color: #94d60a;
+  border: 1px solid #94d60a;
   background-color: transparent; }
   @media screen and (max-width: 480px) {
     input[type=submit] {
       width: 100%; } }
   input[type=submit]:hover {
     color: #f9f9f9;
-    background-color: #3185CB; }
+    background-color: #94d60a; }
 
 .post-password-form label {
   margin-top: 1.77689em; }

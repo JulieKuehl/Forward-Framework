@@ -6,10 +6,11 @@
 //
 $helvetica: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $source-sans: 'Source Sans Pro', $helvetica;
+$montserrat: 'Montserrat', $source-sans;
 $mono: Monaco, Consolas, 'Lucida Console', monospace;
 $default-font: $source-sans;
 $default-font-weight: light;
 $font-size-base: 16px;
 
-$font-heading: $helvetica;
-$font-body: $source-sans;
+$font-heading: $montserrat;
+$font-body: $montserrat;

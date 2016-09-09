@@ -49,6 +49,7 @@ blockquote:after,blockquote:before,q:after,q:before{content:"";content:none}
 table{border-collapse:collapse;border-spacing:0}
 body,button,input,select,textarea{font-weight:300;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;font-size:1em;line-height:1.77689em;margin-top:1em;margin-bottom:1em;color:#595959}
 body{margin-top:0;margin-bottom:0;background-color:#fff}
+a:hover{color:#76ab08}
 b,dt,strong{font-weight:400}
 blockquote{line-height:1.77689em;padding-left:1.333em;border-left:1px solid #dbdbdb}
 >blockquote p:last-child{margin-bottom:0}
@@ -85,7 +86,7 @@ figure.wp-caption,img.size-full,img.size-large,img.wp-post-image{max-width:100%;
 .wp-caption.aligncenter,.wp-caption.alignleft,.wp-caption.alignnone,.wp-caption.alignright{margin-bottom:.42219em}
 .attachment-post-thumbnail{display:block;margin-bottom:2.36859em}
 input[type=color],input[type=date],input[type=datetime],input[type=datetime-local],input[type=email],input[type=month],input[type=number],input[type=password],input[type=search],input[type=tel],input[type=text],input[type=time],input[type=url],input[type=week],textarea{border-radius:0;-webkit-appearance:none}
-h1,h2,h3,h4,h5,h6{clear:both;font-weight:700;color:#3185CB;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
+h1,h2,h3,h4,h5,h6{clear:both;font-weight:700;color:#94d60a;font-family:Montserrat,"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif}
 h1 a :hover,h2 a :hover,h3 a :hover,h4 a :hover,h5 a :hover,h6 a :hover{color:#B2432C}
 h1{font-size:32px}
 h2{font-size:28px}
@@ -93,7 +94,7 @@ h3{font-size:24px}
 h4{font-size:20px}
 a{background-color:transparent;text-decoration:underline;color:inherit}
 #mobile-menu-switch .toggle:hover,.comment-body h1 a:hover,.entry-title a:hover,.error404 .page-title a:hover,.site-title a:hover,a:active,a:hover,article.page h1 a:hover,article.post h1 a:hover{text-decoration:none}
-a:active,a:hover{color:#8e3623;outline:0}
+a:active,a:hover{color:#76ab08;outline:0}
 .container,.content-container,.footer-container,.header-container{max-width:68em;margin-left:auto;margin-right:auto;padding-right:2.0225em;padding-left:2.0225em}
 .container::after,.content-container::after,.footer-container::after,.header-container::after{clear:both;content:"";display:table}
 .content-area{float:left;display:block;margin-right:2.35765%;width:65.88078%;margin-top:60px;margin-top:3.75rem;margin-bottom:60px;margin-bottom:3.75rem}
@@ -119,7 +120,7 @@ a:active,a:hover{color:#8e3623;outline:0}
 .main-navigation .children .menu-item,.main-navigation .children .page_item,.main-navigation .sub-menu .menu-item,.main-navigation .sub-menu .page_item{line-height:1.333em;float:none;margin-left:0}
 .main-navigation .children .menu-item:last-child,.main-navigation .children .page_item:last-child,.main-navigation .sub-menu .menu-item:last-child,.main-navigation .sub-menu .page_item:last-child{margin-bottom:0}
 #mobile-menu-switch{position:fixed;top:0;right:0;display:none}
-#mobile-menu-switch .toggle{font-size:14px;font-size:.875rem;line-height:60px;display:block;width:70px;height:60px;text-align:center;text-transform:uppercase;color:#3185CB}
+#mobile-menu-switch .toggle{font-size:14px;font-size:.875rem;line-height:60px;display:block;width:70px;height:60px;text-align:center;text-transform:uppercase;color:#94d60a}
 .comment-body .comment-meta .comment-metadata a,.comment-body .reply a,.comment-reply-title small a,.comments-title small a{color:#999}
 #mobile-menu-switch .toggle.on{border-left:1px solid #dbdbdb;background-color:#f9f9f9}
 .post-navigation{margin-top:60px;margin-top:3.75rem;margin-bottom:60px;margin-bottom:3.75rem}
@@ -220,8 +221,8 @@ input[type=color],input[type=date],input[type=datetime],input[type=datetime-loca
 input[type=color]:focus,input[type=color]:hover,input[type=date]:focus,input[type=date]:hover,input[type=datetime]:focus,input[type=datetime]:hover,input[type=datetime-local]:focus,input[type=datetime-local]:hover,input[type=email]:focus,input[type=email]:hover,input[type=month]:focus,input[type=month]:hover,input[type=number]:focus,input[type=number]:hover,input[type=password]:focus,input[type=password]:hover,input[type=search]:focus,input[type=search]:hover,input[type=tel]:focus,input[type=tel]:hover,input[type=text]:focus,input[type=text]:hover,input[type=time]:focus,input[type=time]:hover,input[type=url]:focus,input[type=url]:hover,input[type=week]:focus,input[type=week]:hover,input[type=search]:focus,input[type=search]:hover,textarea:focus,textarea:hover{border-color:#999;outline:0}
 input[type=color],input[type=date],input[type=datetime],input[type=datetime-local],input[type=email],input[type=month],input[type=number],input[type=password],input[type=search],input[type=tel],input[type=text],input[type=time],input[type=url],input[type=week],textarea{width:100%}
 input[type=search]{width:auto;border-right:none}
-input[type=submit]{font-weight:400;padding:6px 1.77689em;color:#3185CB;border:1px solid #3185CB;background-color:transparent}
-input[type=submit]:hover{color:#f9f9f9;background-color:#3185CB}
+input[type=submit]{font-weight:400;padding:6px 1.77689em;color:#94d60a;border:1px solid #94d60a;background-color:transparent}
+input[type=submit]:hover{color:#f9f9f9;background-color:#94d60a}
 .post-password-form label{margin-top:1.77689em}
 .post-password-form input[type=password]{margin-top:.75019em}
 .post-password-form input[type=submit]{margin-top:0}
