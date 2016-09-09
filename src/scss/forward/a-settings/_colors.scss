@@ -1,0 +1,37 @@
+///////////////
+// Variables //
+///////////////
+
+// Colors
+//
+$hex-default: tint(#000, 35%);
+$hex-default-hover: shade($hex-default, 20%);
+
+$hex-white: #f9f9f9;
+$hex-real-white: #fff;
+
+$hex-red: #B2432C;
+$hex-blue: #3185CB;
+
+$hex-highlight: #fff9c0;
+
+// Greys
+//
+$hex-faint: #fdfdfd;
+$hex-light-grey: tint(#000, 60%);
+$hex-grey: tint(#000, 50%);
+
+$hex-primary: $hex-blue;
+$hex-primary-hover: shade($hex-primary, 20%);
+
+$hex-secondary: $hex-red;
+$hex-secondary-hover: shade($hex-secondary, 20%);
+
+$hex-border: shade(#e6e6e6, 5%);
+$hex-border-hover: shade($hex-border, 20%);
+
+$hex-footer: tint(#000, 50%);
+$hex-footer-hover: shade($hex-footer, 20%);
+$hex-footer-bg: #f3f3f3;
+
+$hex-background: shade($hex-real-white, 0%);
