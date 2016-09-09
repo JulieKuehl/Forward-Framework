@@ -103,6 +103,25 @@ endif; // forward_setup
 add_action( 'after_setup_theme', 'forward_setup' );
 
 
+/*
+ * Add a search box to the nav menu
+ *
+ */
+
+//function add_search_box($items, $args) {
+//
+//	ob_start();
+//	get_search_form();
+//	$searchform = ob_get_contents();
+//	ob_end_clean();
+//
+//	$items .= '<li><i class="fa fa-search">' . $searchform . '</li>';
+//
+//	return $items;
+//}
+//add_filter('wp_nav_menu_items','add_search_box', 10, 2);
+
+
 if ( ! function_exists( 'forward_widgets_init' ) ) :
 /**
  * Register widget area.
