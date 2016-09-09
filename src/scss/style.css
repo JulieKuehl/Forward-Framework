@@ -628,30 +628,6 @@ dd {
     list-style-type: none;
     list-style-image: none; }
 
-.alignleft {
-  display: inline;
-  float: left; }
-  @media screen and (max-width: 480px) {
-    .alignleft {
-      display: block;
-      float: none; } }
-
-.alignright {
-  display: inline;
-  float: right; }
-  @media screen and (max-width: 480px) {
-    .alignright {
-      display: block;
-      float: none; } }
-
-.aligncenter {
-  display: block;
-  margin-right: auto;
-  margin-left: auto; }
-
-.alignnone {
-  display: block; }
-
 embed,
 iframe,
 object,
@@ -857,6 +833,30 @@ a {
 .single .content-area,
 .page .content-area {
   margin-bottom: 0; }
+
+.alignleft {
+  display: inline;
+  float: left; }
+  @media screen and (max-width: 480px) {
+    .alignleft {
+      display: block;
+      float: none; } }
+
+.alignright {
+  display: inline;
+  float: right; }
+  @media screen and (max-width: 480px) {
+    .alignright {
+      display: block;
+      float: none; } }
+
+.aligncenter {
+  display: block;
+  margin-right: auto;
+  margin-left: auto; }
+
+.alignnone {
+  display: block; }
 
 /*
  * Section F

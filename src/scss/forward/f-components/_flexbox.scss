@@ -1,0 +1,11 @@
+.grid-container {
+	ul {
+		li {
+			border: $border-thin;
+
+			h2 {
+				@include zero-top;
+			}
+		}
+	}
+}

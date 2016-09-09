@@ -98,6 +98,10 @@ a:active,a:hover{color:#76ab08;outline:0}
 .page-template-page-full-width .content-area{float:left;display:block;margin-right:2.35765%;width:100%;padding-right:0}
 .page-template-page-full-width .content-area:last-child{margin-right:0}
 .page .content-area,.single .content-area{margin-bottom:0}
+.alignleft{display:inline;float:left}
+.alignright{display:inline;float:right}
+.aligncenter,.alignnone{display:block}
+.aligncenter{margin-right:auto;margin-left:auto}
 .site-header{height:120px;padding-top:32px;padding-top:2rem;padding-bottom:32px;padding-bottom:2rem}
 .site-branding{position:absolute;top:0;left:2.0225em}
 .site-title{font-size:3.15733em;line-height:1em;margin-top:.56278em;margin-bottom:.56278em;font-weight:300}
@@ -285,6 +289,7 @@ body{margin-top:60px}
 .wp-caption.alignleft,.wp-caption.alignright,blockquote.alignleft,blockquote.alignright,img.alignleft,img.alignright{margin:1.333em auto 1em}
 .wp-caption.aligncenter,.wp-caption.alignleft,.wp-caption.alignnone,.wp-caption.alignright{margin-bottom:.42219em}
 .comment-body,.comment-respond{margin-bottom:1rem;padding-bottom:1rem}
+.alignleft,.alignright{display:block;float:none}
 .comment-body{padding-left:0}
 .comment-body .comment-meta .avatar{display:none}
 .comment-list .children{margin-left:0;padding-left:0}
