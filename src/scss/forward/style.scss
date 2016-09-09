@@ -11,26 +11,18 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
-// Default configuration
-//
-@import '../../../bower_components/bourbon/app/assets/stylesheets/bourbon';
-@import '../../../bower_components/neat/app/assets/stylesheets/neat';
-
-/**************************** begin inverted triangle ***************************/
 /*
  * This theme uses the Inverted Triangle CSS method of organization with Sass
  * http://www.creativebloq.com/web-design/manage-large-css-projects-itcss-101517528
- * and
- * follows the 10up Engineering Best Practices
- * https://10up.github.io/Engineering-Best-Practices/
  *
  */
 
 /*
- * VISUAL GRID
- * optional visual grid overlay for use in development (from Bourbon Neat)
+ * Default configuration
+ *
  */
-$visual-grid: true !global;
+@import '../../../bower_components/bourbon/app/assets/stylesheets/bourbon';
+@import '../../../bower_components/neat/app/assets/stylesheets/neat';
 
 /*
  * Section A
@@ -153,4 +145,9 @@ $visual-grid: true !global;
  */
 //@import "h-trumps/shame";
 
-/**************************** end inverted triangle *****************************/
+/*
+ * VISUAL GRID
+ * optional visual grid overlay for use in development (from Bourbon Neat)
+ *
+ */
+$visual-grid: true !global;
