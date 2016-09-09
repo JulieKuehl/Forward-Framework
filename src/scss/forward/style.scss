@@ -41,9 +41,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
  * Examples of global settings might be things like the base font size, color palettes, and so on.
  *
  */
-//@import "a-settings/colors";
-//@import "a-settings/fonts";
-//@import "a-settings/structure";
+@import "a-settings/colors";
+@import "a-settings/fonts";
+@import "a-settings/structure";
+@import 'a-settings/grid-settings';
 
 /*
  * Section B
