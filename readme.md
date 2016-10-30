@@ -14,18 +14,18 @@ Clone/Fork/Download this project to a local website, such as `[example.dev]`.
 
 __Note:__ Values `[inside-brackets]` can be changed.
 
-    $ git clone git@github.com:juliekuehl/Forward-Framework.git ~/[Sites]/[forward-framework]
-
+    $ git clone git@github.com:juliekuehl/Forward-Framework.git ~/Documents/Websites/VVV/www/[example-website-name]
     $ cd ~/Sites/[example.dev]/wp-content/themes/
 
 Your themes directory will eventually look like this:
 
-    `- wp-content/
-      |- plugins/
-      `- themes/
-        |- example-theme-prod/
-        |- forward-framework/ (could be renamed to [example-theme])
-        |- twentyfifteen/
+    ` - [example-website-name]
+        - wp-content/
+        |- plugins/
+        `- themes/
+          |- example-theme-prod/
+          |- forward-framework/ (could be renamed to [example-theme])
+          |- twentyfifteen/
 
 #### Modify Project Variables
 
