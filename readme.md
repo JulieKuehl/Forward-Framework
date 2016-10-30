@@ -4,37 +4,32 @@
 
 A killer WordPress theme framework built using underscores, gulp, sass, bourbon, bourbon neat, bower & browsersync. This project is also available as a pre-compiled [WordPress starter theme](https://github.com/drawbackwards/Forward-WordPress-Starter-Theme/releases).
 
-## Child Theme Setup
-
-A Child Theme starting point of the Forward Framework is available on the [`child-theme`](https://github.com/drawbackwards/Forward-Framework/tree/child-theme#forward-framework-child-theme) branch. Make sure to read [Setup](https://github.com/drawbackwards/Forward-Framework/tree/child-theme#setup) & [Overriding Styles](https://github.com/drawbackwards/Forward-Framework/tree/child-theme#overriding-styles).
-
 ## Standalone Setup
 
 Keep Reading!
 
 #### Where Do I Put This?
 
-Clone/Fork/Download this project wherever you like and symlink `build/` to `wp-content/themes/[example-theme]`.
+Clone/Fork/Download this project to a local website, such as `[example.dev]`.
 
 __Note:__ Values `[inside-brackets]` can be changed.
 
-    $ git clone git@github.com:drawbackwards/Forward-Framework.git ~/[Sites]/[forward-framework]
+    $ git clone git@github.com:juliekuehl/Forward-Framework.git ~/[Sites]/[forward-framework]
 
-    $ cd ~/Sites/[example-wordpress-install]/wp-content/themes/
-    
-    $ ln -s ~/Sites/forward-framework/build [example-theme]
+    $ cd ~/Sites/[example.dev]/wp-content/themes/
 
-Your themes directory should now look like this:
+Your themes directory will eventually look like this:
 
     `- wp-content/
       |- plugins/
       `- themes/
-        |- example-theme -> ~/Sites/forward-framework/build
-        `- twentyfifteen/
+        |- example-theme-prod/
+        |- forward-framework/ (could be renamed to [example-theme])
+        |- twentyfifteen/
 
 #### Modify Project Variables
 
-1. Open `gulpfile.js` and modify the `project` and `url` variables accordingly.
+1. Open `gulpfile.js` and modify the `project` and `url` variables. Project variable should be the name of the theme with `-prod` appended to it. The `url` should be the URL of the local dev site.
 2. __MAMP Users:__ Enable the port 8888 parameter for BrowserSync (Search for 'Port setting for MAMP users' in `gulpfile.js`).
 
 #### Install Gulp Globally
