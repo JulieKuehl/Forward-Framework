@@ -4,7 +4,7 @@
 
 // Project Variables
 //
-var project     = 'forward-framework',
+var project     = 'forward-framework-prod',
     build       = 'build/',
     // dist        = 'dist/'+project+'/',
     dist        = '../'+project+'/',
