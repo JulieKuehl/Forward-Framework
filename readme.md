@@ -19,10 +19,10 @@ __Note:__ Values `[inside-brackets]` can be changed.
 
 Your themes directory will eventually look like this:
 
-    ` - [example-website-name]
+     - [example-website-name]
         - wp-content/
         |- plugins/
-        `- themes/
+         - themes/
           |- example-theme-prod/
           |- forward-framework/ (could be renamed to [example-theme])
           |- twentyfifteen/
