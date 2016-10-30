@@ -6,7 +6,7 @@ A killer WordPress theme framework built using underscores, gulp, sass, bourbon,
 
 ## Standalone Setup
 
-Keep Reading!
+Keep reading but be warned this information is incomplete at the moment!
 
 #### Where Do I Put This?
 
