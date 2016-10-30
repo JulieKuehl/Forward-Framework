@@ -6,7 +6,8 @@
 //
 var project     = 'forward-framework',
     build       = 'build/',
-    dist        = 'dist/'+project+'/',
+    // dist        = 'dist/'+project+'/',
+    dist        = '../'+project+'/',
     source      = 'src/'
     lang        = 'languages/',
     bower       = 'bower_components/',
