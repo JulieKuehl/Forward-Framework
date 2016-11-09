@@ -4,35 +4,71 @@
 
 A killer WordPress theme framework built using underscores, gulp, sass, bourbon, bourbon neat, bower & browsersync. This project is also available as a pre-compiled [WordPress starter theme](https://github.com/drawbackwards/Forward-WordPress-Starter-Theme/releases).
 
+## Child Theme Setup
+
+A Child Theme starting point of the Forward Framework is available on the [`child-theme`](https://github.com/drawbackwards/Forward-Framework/tree/child-theme#forward-framework-child-theme) branch. Make sure to read [Setup](https://github.com/drawbackwards/Forward-Framework/tree/child-theme#setup) & [Overriding Styles](https://github.com/drawbackwards/Forward-Framework/tree/child-theme#overriding-styles).
+
 ## Standalone Setup
 
-Keep reading but be warned this information is incomplete at the moment!
+Keep Reading!
 
 #### Where Do I Put This?
 
-Clone/Fork/Download this project to a local website, such as `[example.dev]`.
+Clone/Fork/Download this project wherever you like and symlink `build/` to `wp-content/themes/[example-theme]`.
 
 __Note:__ Values `[inside-brackets]` can be changed.
 
-    $ git clone git@github.com:juliekuehl/Forward-Framework.git ~/Documents/Websites/VVV/www/[example-website-name]
-    $ cd ~/Documents/Websites/VVV/www/[example-website-name].dev/wp-content/themes/
+    $ git clone git@github.com:drawbackwards/Forward-Framework.git ~/[Sites]/[forward-framework]
 
-Your themes directory will eventually look like this:
+    $ cd ~/Sites/[example-wordpress-install]/wp-content/themes/
+    
+    $ ln -s ~/Sites/forward-framework/build [example-theme]
 
-     - [example-website-name]
-        - wp-content/
-        |- plugins/
-         - themes/
-          |- example-theme-prod/
-          |- forward-framework/ (could be renamed to [example-theme])
-          |- twentyfifteen/
+Your themes directory should now look like this:
+
+    `- wp-content/
+      |- plugins/
+      `- themes/
+        |- example-theme -> ~/Sites/forward-framework/build
+        `- twentyfifteen/
 
 #### Modify Project Variables
 
-1. Open `gulpfile.js` and modify the `project` and `url` variables. Project variable should be the name of the theme with `-prod` appended to it. The `url` should be the URL of the local dev site.
+1. Open `gulpfile.js` and modify the `project` and `url` variables accordingly.
 2. __MAMP Users:__ Enable the port 8888 parameter for BrowserSync (Search for 'Port setting for MAMP users' in `gulpfile.js`).
 
-#### Install Gulp Globally
+node #### Ensure that you are running the correct version of node.js
+You need to be running node v5.6
+
+Use NVM (node version manager) to control the node version on a per project basis.
+This intern controls the npm, gulp, and bower version used on a per project basis.
+If you do not already have NVM please install it https://github.com/creationix/nvm
+Run node -v to determine you current version of node.js
+
+    $ node -v
+
+Use nvm ls to list your installed node versions
+
+    $ nvm ls
+
+Use nvm install 5.6 to install node 5.6
+
+$ nvm install 5.6
+
+Upon closing your terminal, and reopening it you may need to once again set the 
+version of node to use in the project. Run nvm use 5.6 to do this.
+
+bundler ### Install your gem dependancies
+
+    $ bundle install
+
+    If you do not have bundler
+
+        $ gem install bundler
+
+        $ bundle install
+
+npm #### Install Gulp Globally
 
     $ npm install --global gulp
 
