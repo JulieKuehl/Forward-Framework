@@ -181,9 +181,9 @@ gulp.task('php', function () {
 // Copy everything in the build folder (except previously minified stylesheets) to the `dist/project` folder
 //
 //gulp.task('dist-copy', ['dist-wipe'], function() {
-gulp.task('dist-copy', function () {
+gulp.task('dist-copy', function (cb) {
 	del([build + '**/.DS_Store'])
-	del([dist])
+	del([dist], {force: true}, cb)
 	//return gulp.src([build+'**/*', '!'+build+'**/*.min.css'])
 	return gulp.src([build + '**/*'])
 		.pipe(gulp.dest(dist));
