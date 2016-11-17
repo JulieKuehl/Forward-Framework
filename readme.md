@@ -4,55 +4,74 @@
 
 A killer WordPress theme framework built using underscores, gulp, sass, bourbon, bourbon neat, bower & browsersync. This project is also available as a pre-compiled [WordPress starter theme](https://github.com/drawbackwards/Forward-WordPress-Starter-Theme/releases).
 
-## Standalone Setup
-
-Keep reading but be warned this information is incomplete at the moment!
-
 #### Where Do I Put This?
 
-Clone/Fork/Download this project to a local website, such as `[example.dev]`.
+Clone/Fork/Download this project wherever you like and symlink `build/` to `wp-content/themes/[example-theme]`.
 
 __Note:__ Values `[inside-brackets]` can be changed.
 
-    $ git clone git@github.com:juliekuehl/Forward-Framework.git ~/Documents/Websites/VVV/www/[example-website-name]
-    $ cd ~/Documents/Websites/VVV/www/[example-website-name].dev/wp-content/themes/
+    $ git clone git@github.com:drawbackwards/Forward-Framework.git ~/[Sites]/[forward-framework]
 
-Your themes directory will eventually look like this:
+    $ cd ~/Sites/[example-wordpress-install]/wp-content/themes/
 
-     - [example-website-name]
-        - wp-content/
-        |- plugins/
-         - themes/
-          |- example-theme-prod/
-          |- forward-framework/ (could be renamed to [example-theme])
-          |- twentyfifteen/
+    $ ln -s ~/Sites/forward-framework/build [example-theme]
+
+Your themes directory should now look like this:
+
+    `- wp-content/
+      |- plugins/
+      `- themes/
+        |- example-theme -> ~/Sites/forward-framework/build
+        `- twentyfifteen/
 
 #### Modify Project Variables
 
-1. Open `gulpfile.js` and modify the `project` and `url` variables. Project variable should be the name of the theme with `-prod` appended to it. The `url` should be the URL of the local dev site.
+1. Open `gulpfile.js` and modify the `project` and `url` variables accordingly.
 2. __MAMP Users:__ Enable the port 8888 parameter for BrowserSync (Search for 'Port setting for MAMP users' in `gulpfile.js`).
 
 #### Install Gulp Globally
 
     $ npm install --global gulp
 
+#### Install Yarn (preferred over npm)
+
+    # Using homebrew
+    $ brew update
+    $ brew install yarn
+
+    # OR using npm
+    $ npm install -g yarn
+
+For additional methods see the [yarn install page](https://yarnpkg.com/en/docs/install).
+
 #### Install Gulp Plugins / Dependencies
 
     $ cd ~/Sites/forward-framework/
+    $ yarn
 
-	$ npm install
+    # OR use npm
+    $ npm install
 
 #### Install Bower & Components
 
-	$ npm install -g bower
-
+    $ npm install -g bower
     $ bower install
+
+#### Install sass
+
+Sass is a Ruby component (known as a gem). If you're a Mac user Ruby is already on your system but if you're developing
+on Linux or Windows you may  have to install it. Once you've got Ruby you should be able to install sass from the
+command line (you may need to use `sudo`).
+
+    $ gem install sass
+
+For troubleshooting see the [sass install page](http://sass-lang.com/install).
 
 #### Generate Theme Files
 
 This will generate the initial theme files in `build/`.
 
-	$ gulp build
+    $ gulp build
 
 #### Activate Theme & Create a Navigation Menu
 
@@ -71,13 +90,13 @@ Running `gulp build` will generate/rebuild the `build/` directory without starti
 
 Running `gulp` or `gulp watch` will start the watch process & browser-sync. Changes to `src/` are written to `build/`.
 
-	$ gulp
+    $ gulp
 
 #### gulp dist
 
 Running `gulp dist` will generate an optimized, production ready version of the theme based on `build/`. This will be the folder you deploy to production.
 
-	$ gulp dist
+    $ gulp dist
 
 ## License
 
@@ -94,8 +113,5 @@ Running `gulp dist` will generate an optimized, production ready version of the 
 * [Bourbon Neat](http://neat.bourbon.io)
 * [Bower](http://bower.io)
 * [Browsersync](http://www.browsersync.io)
-* [CSSmin](https://www.npmjs.com/package/gulp-cssmin)
 * [Autoprefixer](https://github.com/postcss/autoprefixer-core)
-* [Combine Media Queries](https://www.npmjs.com/package/gulp-combine-media-queries)
-* [Pixrem](https://www.npmjs.com/package/gulp-pixrem)
 * [Normalize](https://necolas.github.io/normalize.css/)
