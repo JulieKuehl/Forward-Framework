@@ -6,13 +6,13 @@
 // Project Variables
 // ---------------------------------------------------------------------------
 
-var project     = 'forward';
+var project     = 'juliekuehl';
 var build       = 'build/';
 var dist        = 'dist/'+project+'/';
 var source      = 'src/';
 var lang        = 'languages/';
 var bower       = 'bower_components/';
-var url         = 'forward.local';
+var url         = 'juliekuehl.dev';
 
 
 // Plugins
